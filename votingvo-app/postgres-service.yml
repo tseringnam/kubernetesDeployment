@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: redis
   labels:
-    name: redis-service
+    name: postgres-service
     app: demo-voting-app
 spec:
   ports:
